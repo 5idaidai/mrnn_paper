@@ -1,0 +1,448 @@
+@STRING(PAMI="PAMI")
+@STRING(IJCV="IJCV")
+@STRING(CVIU="Computer Vision and Image Understanding")
+@STRING(TICS="Trends in Cogn. Sciences")
+@STRING(NC="Neural Computation")
+@STRING(CVPR="CVPR")
+@STRING(ICCV="ICCV")
+@STRING(ECCV="ECCV")
+@STRING(NIPS="NIPS")
+@STRING(BMVC="BMVC")
+@STRING(IVC="Image and Vision Computing")
+@STRING(JMLR="Journal of Machine Learning Research")
+@STRING(JMLR="JMLR")
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Superpixel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@article{uijlings2013selective,
+  title={Selective search for object recognition},
+  author={Uijlings, JRR and van de Sande, KEA and Gevers, T and Smeulders, AWM},
+  journal={IJCV},
+  volume={104},
+  number={2},
+  pages={154--171},
+  year={2013},
+  publisher={Springer}
+}
+
+@InProceedings{ArbelaezCVPR2012,
+  author       = "Pablo Arbelaez and Bharath Hariharan and Chunhui Gu and Saurabh Gupta and Jitendra Malik",
+  title        = "Semantic Segmentation using Regions and Parts",
+  booktitle    = "CVPR",
+  year         = "2012",
+}
+
+
+@article{Carreira12,
+  author = {Carreira, Joao and Sminchisescu, Cristian},
+  journal = {TPAMI},
+  number = 7,
+  pages = {1312--1328},
+  title = {CPMC: Automatic Object Segmentation Using Constrained Parametric Min-Cuts},
+  volume = 34,
+  year = 2012
+}
+
+@inproceedings{GalunICCV2003,
+ author = {Galun, Meirav and Sharon, Eitan and Basri, Ronen and Brandt, Achi},
+ title = {Texture Segmentation by Multiscale Aggregation of Filter Responses and Shape Elements},
+ series = {ICCV '03},
+ year = {2003},
+ isbn = {0-7695-1950-4},
+ pages = {716--},
+}
+
+@article{SLIC2012,
+author = {R. Achanta and A. Shaji and K. Smith and A. Lucchi and P. Fua and Sabine Susstrunk},
+title = {{SLIC} Superpixels Compared to State-of-the-Art Superpixel Methods},
+journal ={TPAMI},
+volume = {34},
+number = {11},
+year = {2012},
+pages = {2274-2282},
+}
+
+@article{Arbelaez11,
+  title = {Contour Detection and Hierarchical Image Segmentation},
+  author = {Pablo Arbelaez and Michael Maire and Charless Fowlkes and Jitendra Malik},
+  year = {2011},
+  journal = {TPAMI},
+  volume = {33},
+  number = {5},
+  pages = {898-916},
+}
+
+
+@article{Felzenszwalb04,
+ author = {Felzenszwalb, Pedro F. and Huttenlocher, Daniel P.},
+ title = {Efficient Graph-Based Image Segmentation},
+ journal = {IJCV},
+ volume = {59},
+ number = {2},
+ month = sep,
+ year = {2004},
+ issn = {0920-5691},
+ pages = {167--181},
+ numpages = {15},
+}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Appearance and semantic segmentation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{VezhnevetsB10,
+  added-at = {2010-11-02T00:00:00.000+0100},
+  author = {Vezhnevets, Alexander and Buhmann, Joachim M.},
+  booktitle = {CVPR},
+  keywords = {dblp},
+  pages = {3249-3256},
+  publisher = {IEEE},
+  timestamp = {2010-11-02T00:00:00.000+0100},
+  title = {Towards weakly supervised semantic segmentation by means of multiple instance and multitask learning.},
+  year = 2010
+}
+
+@inproceedings{VezhnevetsFB12,
+  added-at = {2012-08-16T00:00:00.000+0200},
+  author = {Vezhnevets, Alexander and Ferrari, Vittorio and Buhmann, Joachim M.},
+  booktitle = {CVPR},
+  isbn = {978-1-4673-1226-4},
+  keywords = {dblp},
+  pages = {845-852},
+  publisher = {IEEE},
+  timestamp = {2012-08-16T00:00:00.000+0200},
+  title = {Weakly supervised structured output learning for semantic segmentation.},
+  year = 2012
+}
+
+@inproceedings{Smin12cls,
+ author = {Carreira, Jo\~{a}o and Caseiro, Rui and Batista, Jorge and Sminchisescu, Cristian},
+ title = {Semantic Segmentation with Second-order Pooling},
+ booktitle = {Proceedings of the 12th European Conference on Computer Vision - Volume Part VII},
+ series = {ECCV'12},
+ year = {2012},
+ isbn = {978-3-642-33785-7},
+ location = {Florence, Italy},
+ pages = {430--443},
+ numpages = {14},
+ publisher = {Springer-Verlag},
+}
+
+@inproceedings{ren_cvpr12,
+  author = {X. Ren and L. Bo and D. Fox},
+  title = {RGB-(D) Scene Labeling: Features and Algorithms},
+  booktitle = {IEEE International Conference on Computer Vision and Pattern Recognition},
+  year = {2012},
+  month = {June},
+}
+
+
+@article{Long2013,
+  author = {Long (Leo) Zhu and Yuanhao Chen and Alan Yuille and William Freeman},
+  title = {Latent hierarchical structural learning for object detection},
+  journal ={2013 IEEE Conference on Computer Vision and Pattern Recognition},
+  volume = {0},
+  isbn = {978-1-4244-6984-0},
+  year = {2010},
+  pages = {1062-1069},
+  publisher = {IEEE Computer Society},
+}
+
+
+@inproceedings{Wang2007,
+ author = {Wang, Liming and Shi, Jianbo and Song, Gang and Shen, I-Fan},
+ title = {Object Detection Combining Recognition and Segmentation},
+ booktitle = {Proceedings of the 8th Asian Conference on Computer Vision - Volume Part I},
+ series = {ACCV'07},
+ year = {2007},
+ isbn = {3-540-76385-6, 978-3-540-76385-7},
+ location = {Tokyo, Japan},
+ pages = {189--199},
+ numpages = {11},
+ publisher = {Springer-Verlag},
+}
+
+@article{SegmentationDriven2013,
+author = {Ramazan Gokberk Cinbis and Jakob Verbeek and Cordelia Schmid},
+title = {Segmentation Driven Object Detection with Fisher Vectors},
+journal ={Computer Vision, IEEE International Conference on},
+volume = {0},
+issn = {1550-5499},
+year = {2013},
+pages = {2968-2975},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}
+
+
+@inproceedings{GuLAM09,
+  author    = {Chunhui Gu and
+               Joseph J. Lim and
+               Pablo Arbelaez and
+               Jitendra Malik},
+  title     = {Recognition using regions},
+  booktitle = {CVPR},
+  year      = {2009},
+  pages     = {1030-1037},
+}
+
+
+@inproceedings{fidler13,
+  author    = {Sanja Fidler and
+               Roozbeh Mottaghi and
+               Alan L. Yuille and
+               Raquel Urtasun},
+  title     = {Bottom-Up Segmentation for Top-Down Detection},
+  booktitle = {CVPR},
+  year      = {2013},
+  pages     = {3294-3301},
+}
+
+
+@article{felzenswalb10,
+  title={Object detection with discriminatively trained part-based models},
+  author={Felzenszwalb, Pedro F and Girshick, Ross B and McAllester, David and Ramanan, Deva},
+  journal={TPAMI},
+  volume={32},
+  number={9},
+  pages={1627--1645},
+  year={2010},
+  publisher={IEEE}
+}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MIL and application to computer vision
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INPROCEEDINGS{Andrews03supportvector,
+    author = {Stuart Andrews and Ioannis Tsochantaridis and Thomas Hofmann},
+    title = {Support vector machines for multiple-instance learning},
+    booktitle = {Advances in Neural Information Processing Systems 15},
+    year = {2003},
+    pages = {561--568},
+    publisher = {MIT Press}
+}
+
+@inproceedings{Muller2011,
+ author = {M\"{u}ller, Andreas and Behnke, Sven},
+ title = {Multi-instance Methods for Partially Supervised Image Segmentation},
+ booktitle = {Proceedings of the First IAPR TC3 Conference on Partially Supervised Learning},
+ series = {PSL'11},
+ year = {2012},
+ isbn = {978-3-642-28257-7},
+ location = {Ulm, Germany},
+ pages = {110--119},
+ numpages = {10},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+}
+
+@inproceedings{WangSZ12,
+  author    = {Qifan Wang and
+               Luo Si and
+               Dan Zhang},
+  title     = {A Discriminative Data-Dependent Mixture-Model Approach for
+               Multiple Instance Learning in Image Classification},
+  booktitle = {ECCV (4)},
+  year      = {2012},
+  pages     = {660-673},
+}
+
+@inproceedings{WangWBLT13,
+  author    = {Xinggang Wang and
+               Baoyuan Wang and
+               Xiang Bai and
+               Wenyu Liu and
+               Zhuowen Tu},
+  title     = {Max-Margin Multiple-Instance Dictionary Learning},
+  booktitle = {ICML (3)},
+  year      = {2013},
+  pages     = {846-854},
+}
+
+
+@article{Dietterich1997,
+ author = {Dietterich, Thomas G. and Lathrop, Richard H. and Lozano-P{\'e}rez, Tom\'{a}s},
+ title = {Solving the Multiple Instance Problem with Axis-parallel Rectangles},
+ journal = {Artif. Intell.},
+ issue_date = {Jan. 1997},
+ volume = {89},
+ number = {1-2},
+ month = jan,
+ year = {1997},
+ issn = {0004-3702},
+ pages = {31--71},
+ numpages = {41},
+ publisher = {Elsevier Science Publishers Ltd.},
+}
+
+@inproceedings{ViolaPZ05,
+  author    = {Paul A. Viola and
+               John C. Platt and
+               Cha Zhang},
+  title     = {Multiple Instance Boosting for Object Detection},
+  booktitle = {NIPS},
+  year      = {2005},
+}
+
+@inproceedings{DollarBabenkoBelongiePeronaTu,
+author={P. Dollar and B. Babenko and S. Belongie and P. Perona and Z. Tu},
+title={Multiple Component Learning for Object Detection},
+booktitle={European Conference on Computer Vision (ECCV)},
+year={2008},
+address={Marseille, France}
+}
+
+@inproceedings{VijayanarasimhanG08,
+  author    = {Sudheendra Vijayanarasimhan and
+               Kristen Grauman},
+  title     = {Keywords to visual categories: Multiple-instance learning
+               forweakly supervised object categorization},
+  booktitle = {CVPR},
+  year      = {2008},
+}
+
+
+
+@inproceedings{girshick14CVPR,
+    Author = {Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra},
+    Title = {Rich feature hierarchies for accurate object detection and semantic segmentation},
+    Booktitle = {Computer Vision and Pattern Recognition},
+    Year = {2014}
+}
+
+
+
+@inproceedings{KrizhevskySH12,
+  author    = {Alex Krizhevsky and
+               Ilya Sutskever and
+               Geoffrey E. Hinton},
+  title     = {ImageNet Classification with Deep Convolutional Neural Networks},
+  booktitle = {NIPS},
+  year      = {2012},
+  pages     = {1106-1114},
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Data sets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{pascal-voc-2007,
+	author = "Everingham, M. and Van~Gool, L. and Williams, C. K. I. and Winn, J. and Zisserman, A.",
+	title = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)} {R}esults",
+	howpublished = "http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html"
+}
+
+@misc{pascal-voc-2010,
+	author = "Everingham, M. and Van~Gool, L. and Williams, C. K. I. and Winn, J. and Zisserman, A.",
+	title = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2010 {(VOC2010)} {R}esults",
+	howpublished = "http://www.pascal-network.org/challenges/VOC/voc2010/workshop/index.html"
+}
+
+@misc{Imagenet2012,
+	author = "Deng, J. and Berg, A. and  and Winn, J. and Zisserman, A.",
+	title = "The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2010 {(VOC2010)} {R}esults",
+	howpublished = "http://www.image-net.org/challenges/LSVRC/2012/index"
+}
+
+@inproceedings{chen2014detect,
+  title={Detect What You Can: Detecting and Representing Objects using Holistic Models and Body Parts},
+  author={Chen, Xianjie and Mottaghi, Roozbeh and Liu, Xiaobai and Fidler, Sanja and Urtasun, Raquel and Yuille, Alan},
+  booktitle={CVPR},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{mottaghi2014context,
+  title={The Role of Context for Object Detection and Semantic Segmentation in the Wild},
+  author={Mottaghi, Roozbeh and Chen, Xianjie and Liu, Xiaobai and Cho Nam-Gyu and Fidler, Sanja and Urtasun, Raquel and Yuille, Alan},
+  booktitle={CVPR},
+  year={2014},
+  organization={IEEE}
+}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Method used
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{vedaldi2012efficient,
+  title={Efficient additive kernels via explicit feature maps},
+  author={Vedaldi, Andrea and Zisserman, Andrew},
+  journal={TPAMI},
+  volume={34},
+  number={3},
+  pages={480--492},
+  year={2012},
+  publisher={IEEE}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Roozbeh's CVPR References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{tighe10,
+title={SuperParsing: Scalable Nonparametric Image Parsing with Superpixels},
+author={Joseph Tighe and Svetlana Lazebnik},
+booktitle={ECCV},
+year={2010}
+}
+
+@article{tighe13,
+  author    = {Joseph Tighe and
+               Svetlana Lazebnik},
+  title     = {Superparsing - Scalable Nonparametric Image Parsing with
+               Superpixels},
+  journal   = IJCV,
+  volume    = {101},
+  number    = {2},
+  year      = {2013},
+  pages     = {329-349},
+}
+
+@article{shotton09,
+  author       = "J. Shotton and J. Winn and C. Rother and A. Criminisi",
+  title        = "TextonBoost for Image Understanding: Multi-Class Object Recognition and Segmentation by Jointly Modeling Appearance, Shape and Context",
+  journal      = IJCV,
+  year         = {2009}
+}

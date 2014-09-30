@@ -1,0 +1,15 @@
+% To do:
+% The two application paragraph. Waiting for the results.
+
+\begin{abstract}
+
+In this paper, we present a multimodal Recurrent Neural Network (m-RNN) framework for three multimodal tasks: sentence generation, sentence retrieval given query image, and image retrieval given query sentence.
+Unlike some previous methods that map both the image and sentence features into a same space, we directly model the probability distribution of generating a word given previous words.
+We can obtain novel image descriptions by sampling from the word probability distribution.
+The probability of generating a sentence given an image can also be calculated and used for retrieval tasks.
+% It serves as the affinity metric between image and sentence for the retrieval tasks. 
+The effectiveness of our model is validated on three benchmark datasets (IAPR TC-12 \cite{grubinger2006iapr}, flickr 8K \cite{rashtchian2010collecting}, flickr 30K \cite{hodoshimage}).
+Our model outperforms the state-of-the-art generative methods by a large margin.
+In addition, for the retrieval tasks, we show that our model achieves nontrivial performance improvement over previous mapping methods which directly optimize the ranking objective function for retrieval.
+
+\end{abstract}

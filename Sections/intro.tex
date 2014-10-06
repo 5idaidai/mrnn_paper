@@ -2,22 +2,23 @@
 
 \section{Introduction}
 
-Generating sentence level descriptions for images is becoming an important task recently and has many applications, such as early childhood education, image retrieval, and navigation for the blind.
-Thanks to the rapid development of the computer vision and natural language processing technologies, there are more and more works appear recently for this task (see a brief review in Section \ref{sec:related_work}).
-Many of them treat it as a ranking task.
+Obtaining sentence level descriptions for images is becoming an important task and has many applications, such as early childhood education, image retrieval, and navigation for the blind.
+Thanks to the rapid development of computer vision and natural language processing technologies, recent works have made significant progress for this task (see a brief review in Section \ref{sec:related_work}).
+Many of these works treat it as a retrieval task.
 They extract features for both sentences and images, and map them to the same semantic embedding space.
-These methods well handled the tasks of retrieval the sentences given the query image or retrieval the images given the query sentences.
-But they can only label query images with the sentences annotation of the images in the datasets, thus lack the ability to describe new image that contains previously unseen combinations of objects and scenes.
+These methods address the tasks of retrieving the sentences given the query image or retrieving the images given the query sentences.
+But they can only label the query image with the sentence annotations of the images already existing in the datasets, thus lack the ability to describe new images that contain previously unseen combinations of objects and scenes.
 
 In this work, we propose a multimodal Recurrent Neural Networks (m-RNN) model to address both the task of generating novel sentences descriptions for images, and the task of image and sentence retrieval.
 The whole m-RNN architecture contains a language model part, an image part and a multimodal part.
-The language model part will learn the dense feature embedding for each word in the dictionary and store the semantic context in a recurrent layer.
-The image part contains a deep Convulutional Neural Network (CNN) \cite{krizhevsky2012imagenet} to extract image features.
-The multimodal part connect the language model and the deep CNN together.
-We adopt a perplexity based cost function (see details in Section \ref{sec:trainCost}) for training the network and the errors can be backpropagated to the three parts to updating the parameters.
+The language model part learns the dense feature embedding for each word in the dictionary and stores the semantic temporal context in recurrent layers.
+The image part contains a deep Convulutional Neural Network (CNN) \cite{krizhevsky2012imagenet} which extracts image features.
+The multimodal part connects the language model and the deep CNN together by a one-layer representation.
+Our m-RNN model is learned using a perplexity based cost function (see details in Section \ref{sec:trainCost}).
+The errors are backpropagated to the three parts of the m-RNN model to update the model parameters simultaneously.
 To the best of our knowledge, this is the first work that incorporates the Recurrent Neural Network in a deep multimodal architecture.
 
-In the experiments, we validate our model on three benchmark datasets: IAPR TC-12 \cite{grubinger2006iapr}, flickr 8K \cite{rashtchian2010collecting}, and flickr 30K \cite{hodoshimage}.
-we show that our method outperforms the state-of-the-art methods in both the task of generating sentences and the task of image and sentence retrieval by a large margin when using the same image feature extraction networks.
+In the experiments, we validate our model on three benchmark datasets: IAPR TC-12 \cite{grubinger2006iapr}, Flickr 8K \cite{rashtchian2010collecting}, and Flickr 30K \cite{hodoshimage}.
+we show that our method significantly outperforms the state-of-the-art methods in both the task of generating sentences and the task of image and sentence retrieval when using the same image feature extraction networks.
 % Some examples are shown in Figure \ref{fig:res_example}.
-Our model is flexible and has the potential to be further improved when adopting more powerful deep networks for image and the language.
+Our model is extendable and has the potential to be further improved by incorporating more powerful deep networks for the image and the sentence.
